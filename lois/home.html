@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HOME</title>
+    <link rel="stylesheet" type="text/css" href="">
+
+    <style type="text/css">
+        body
+        {
+            background-image: url(taehyung-image-home-html.jpg);
+            background-color: #E9967A;
+        }
+    </style>
+</head>
+
+<body>
+
+    <a href="user.html"></a>
+
+    <h1 style="color: #7FFFD4; font-family: serif; text-align: center;">WELCOME</h1>
+    <hr/>
+    <h2 style="text-align: center; color : #00FF7F;">CLEAN LAUNDRY</h2>
+    <hr>
+
+    <!--ISI FORUM UNTUK MENCUCI-->
+
+    <div align="center"><strong><font size="6" face="Courier New, Courier,mono" color="#FF6347">ISI FORUM DI BAWAH JIKA INGIN MENCUCI</font></strong></div>
+
+    <form name="form1" method="post" action="proses.php">
+        <br><br><br><br><br>
+        <table width="58%" border="0" align="center">
+            <tr>
+                <td><font color="800080">Nama Lengkap</font></td>
+                <td><input name="nama" type="text" id="nama"></td>
+            </tr>
+
+            <tr>
+                <td><font color="800080">Alamat</font></td>
+                <td><input name="alamat" type="text" id="alamat"></td>
+            </tr>
+
+            <tr>
+                <td><font color="800080">No Telepon</font></td>
+                <td><input name="telepon" type="number" id="telepon"></td>
+            </tr>
+
+            <tr>
+                <td><font color="800080">Jenis Cucian</font></td>
+                <td>
+                    <select name="jenis" id="jenis">
+                        <option>Cuci Saja</option>
+                        <option>Cuci Dan Setrika</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><font color="800080">Tanggal</font></td>
+                <td><input name="tgl" type="date" id="tgl"></td>
+            </tr>
+
+            <tr>
+                <td>&nbsp;</td>
+                <td>
+                    <input type="submit" name="Submit" value="Kirim">
+                    <input type="reset" name="Submit2" value="Batal">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <br><br>
+    <div align="center"><strong><a href="lihat.php">::Lihat Daftar Pelanggan</a></strong></div>
+    <div align="center"><strong><a href="index.html">::Kembali Ke Tampilan Home</a></strong></div>
+</body>
+</html>
